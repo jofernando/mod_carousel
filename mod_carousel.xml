@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="module" client="site" method="upgrade">
 	<name>MOD_CAROUSEL</name>
-	<author>José Fernando Mendes da costa</author>
+	<author>José Fernando Mendes da Costa</author>
 	<creationDate>2024-12</creationDate>
 	<authorEmail>98fernandocosta@gmail.com</authorEmail>
 	<authorUrl>github.com/jofernando</authorUrl>
