@@ -71,7 +71,8 @@ $inlineStyle = "
 ";
 
 $wa = $app->getDocument()->getWebAssetManager();
-$wa->registerAndUseStyle('mod_articles', 'mod_articles/mod-articles.css')
+$wa->useScript('jquery')
+    ->registerAndUseStyle('mod_articles', 'mod_articles/mod-articles.css')
     ->registerAndUseStyle('mod_carousel-slick', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css')
     ->registerAndUseStyle('mod_carousel-slich-theme', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css')
     ->registerAndUseScript('mod_carousel-slick-js', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js')
